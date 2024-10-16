@@ -49,7 +49,7 @@
         padding: 40px 20px;
     }
     .icon{
-        background-color: var(--rr-color-theme-primary);
+        background-image: var(--rr-color-theme-primary);
         height: 98px;
         width: 98px;
         border-radius: 50%;
@@ -93,7 +93,7 @@
             &:hover{
                 color: var(--rr-color-theme-primary);
                 &:before{
-                    background-color: var(--rr-color-theme-primary);
+                    background-image: var(--rr-color-theme-primary);
                 }
             }
         }
@@ -113,7 +113,7 @@
 // Service Section 2
 
 .service-section-2{
-    background-color: var(--rr-color-theme-primary);
+    background-image: var(--rr-color-theme-primary);
     border-top: 2px solid var(--rr-color-heading-primary);
     border-bottom: 2px solid var(--rr-color-heading-primary);
 }
@@ -131,7 +131,7 @@
         padding: 40px 20px;
     }
     .icon{
-        background-color: var(--rr-color-theme-primary);
+        background-image: var(--rr-color-theme-primary);
         height: 96px;
         width: 96px;
         @include flex-center;
@@ -364,7 +364,7 @@
     }
     &:hover{
         .border-space{
-            background-color: var(--rr-color-theme-primary);
+            background-image: var(--rr-color-theme-primary);
             border: 3px solid var(--rr-color-heading-primary);
         }
         .service-card{
@@ -437,7 +437,7 @@
 // About Service
 
 .about-service{
-    background-color: var(--rr-color-theme-primary);
+    background-image: var(--rr-color-theme-primary);
     border-top: 2px solid var(--rr-color-heading-primary);
     border-bottom: 2px solid var(--rr-color-heading-primary);
 }

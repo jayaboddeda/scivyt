@@ -10,7 +10,7 @@
     z-index: 1;
     border-bottom: 3px solid var(--rr-color-heading-primary);
     &:before{
-        background-color: var(--rr-color-theme-primary);
+        background-image: var(--rr-color-theme-primary);
         content: "";
         width: 45%;
         height: 100%;
@@ -116,7 +116,7 @@
                 padding: 20px;
             }
             &:after{
-                background-color: var(--rr-color-theme-primary);
+                background-image: var(--rr-color-theme-primary);
                 color: var(--rr-color-heading-primary);
                 background-image: none;
                 font-family: "Font Awesome 6 Pro";

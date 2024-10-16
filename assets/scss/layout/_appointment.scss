@@ -30,7 +30,7 @@
                 margin-bottom: 40px;
             }
             .icon{
-                background-color: var(--rr-color-theme-primary);
+                background-image: var(--rr-color-theme-primary);
                 color: var(--rr-color-heading-primary);
                 font-size: 18px;
                 height: 35px;
@@ -93,7 +93,7 @@
 // Appointment 2
 
 .appointment-2{
-    background-color: var(--rr-color-theme-primary);
+    background-image: var(--rr-color-theme-primary);
     border-bottom: 3px solid var(--rr-color-heading-primary);
     overflow-x: clip;
 }

@@ -124,7 +124,7 @@ START: Footer CSS
         }
         .submit{
             font-family: var(--rr-ff-heading);
-            background-color: var(--rr-color-theme-primary);
+            background-image: var(--rr-color-theme-primary);
             color: var(--rr-color-heading-primary);
             text-transform: uppercase;
             position: absolute;
@@ -149,7 +149,7 @@ START: Footer CSS
                 margin-bottom: 25px;
             }
             .icon{
-                background-color: var(--rr-color-theme-primary);
+                background-image: var(--rr-color-theme-primary);
                 color: var(--rr-color-heading-primary);
                 height: 40px;
                 width: 40px;

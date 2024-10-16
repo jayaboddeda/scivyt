@@ -3,7 +3,7 @@
 /** Buttons CSS */
 
 .rr-primary-btn {
-    background-color: var(--rr-color-theme-primary);
+    background-image: var(--rr-color-theme-primary);
     font-family: var(--rr-ff-heading);
     color: var(--rr-color-heading-primary);
     display: inline-flex;
@@ -58,7 +58,7 @@
 }
 
 .rr-white-btn {
-    background-color: var(--rr-color-theme-primary);
+    background-image: var(--rr-color-theme-primary);
     font-family: var(--rr-ff-heading);
     color: var(--rr-color-heading-primary);
     display: inline-flex;

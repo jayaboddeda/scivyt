@@ -133,7 +133,7 @@ START: Header CSS
                             border-bottom: none;
                         }
                         &:hover {
-                            background-color: var(--rr-color-theme-primary);
+                            background-image: var(--rr-color-theme-primary);
                             a{
                                 color: var(--rr-color-common-black);
                             }
@@ -489,7 +489,7 @@ START: Header CSS
 .header-4{
     .top-bar{
         .top-bar-inner{
-            background-color: var(--rr-color-theme-primary);
+            background-image: var(--rr-color-theme-primary);
             .top-bar-left{
                 .top-contact-list{
                     li{
@@ -553,7 +553,7 @@ START: Header CSS
     transition: transform 0.5s ease;
     backface-visibility: hidden;
     .side-menu-close {
-        background-color: var(--rr-color-theme-primary);
+        background-image: var(--rr-color-theme-primary);
         position: absolute;
         top: 40px;
         right: 40px;
@@ -765,7 +765,7 @@ START: Header CSS
                     right: 16px;
                 }
                 &:hover {
-                    background-color: var(--rr-color-theme-primary);
+                    background-image: var(--rr-color-theme-primary);
                     color: var(--rr-color-common-white);
                 }
             }
@@ -865,7 +865,7 @@ START: Header CSS
                     }
                 }
                 a.mean-expand {
-                    background-color: var(--rr-color-theme-primary);
+                    background-image: var(--rr-color-theme-primary);
                     color: var(--rr-color-heading-primary);
                     position: absolute;
                     padding: 0;
@@ -989,7 +989,7 @@ START: Header CSS
                 right: 10px;
             }
             &:hover{
-                background-color: var(--rr-color-theme-primary);
+                background-image: var(--rr-color-theme-primary);
                 border: 1px solid var(--rr-color-theme-primary);
                 color: var(--rr-color-common-white);
             }

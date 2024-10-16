@@ -92,7 +92,7 @@
         margin-bottom: 30px;
     }
     .icon{
-        background-color: var(--rr-color-theme-primary);
+        background-image: var(--rr-color-theme-primary);
         height: 98px;
         width: 98px;
         @include flex-center;

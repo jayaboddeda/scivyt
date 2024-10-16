@@ -278,7 +278,7 @@ START: Sidebar CSS
 }
 
 .side-menu-list li i {
-    background-color: var(--rr-color-theme-primary);
+    background-image: var(--rr-color-theme-primary);
     font-size: 12px;
     color: var(--rr-color-heading-primary);
     width: 30px;
@@ -320,7 +320,7 @@ START: Sidebar CSS
             @include flex-center;
             border-radius: 5px;
             &:hover{
-                background-color: var(--rr-color-theme-primary);
+                background-image: var(--rr-color-theme-primary);
                 color: var(--rr-color-heading-primary);
             }
         }

@@ -149,7 +149,7 @@ blockquote{
                     padding: 7px 30px;
                     border-radius: 100px;
                     &:hover{
-                        background-color: var(--rr-color-theme-primary);
+                        background-image: var(--rr-color-theme-primary);
                         color: var(--rr-color-heading-primary);
                     }
                 }
@@ -278,7 +278,7 @@ blockquote{
             }
         }
         .search-btn{
-            background-color: var(--rr-color-theme-primary);
+            background-image: var(--rr-color-theme-primary);
             color: var(--rr-color-heading-primary);
             @include flex-center;
             font-size: 13px;
@@ -327,7 +327,7 @@ blockquote{
                     font-family: var(--rr-ff-heading);
                 }
                 &:hover{
-                    background-color: var(--rr-color-theme-primary);
+                    background-image: var(--rr-color-theme-primary);
                     color: var(--rr-color-heading-primary);
                 }
             }
@@ -379,7 +379,7 @@ blockquote{
                 @include transition(all 0.3s ease-in-out);
                 z-index: 2;
                 a{
-                    background-color: var(--rr-color-theme-primary);
+                    background-image: var(--rr-color-theme-primary);
                     color: var(--rr-color-heading-primary);
                     height: 35px;
                     width: 35px;
@@ -464,7 +464,7 @@ blockquote{
         }
     }
     &.blog-cta{
-        background-color: var(--rr-color-theme-primary);
+        background-image: var(--rr-color-theme-primary);
         .title{
             font-size: 30px;
             font-weight: 600;

@@ -56,7 +56,7 @@
             align-items: baseline;
         }
         .number{
-            background-color: var(--rr-color-theme-primary);
+            background-image: var(--rr-color-theme-primary);
             height: 90px;
             width: 90px;
             @include flex-center;
@@ -255,7 +255,7 @@
             }
         }
         .project-btn{
-            background-color: var(--rr-color-theme-primary);
+            background-image: var(--rr-color-theme-primary);
             color: var(--rr-color-heading-primary);
             height: 65px;
             width: 65px;
@@ -343,7 +343,7 @@
             margin-bottom: 24px;
         }
         .icon{
-            background-color: var(--rr-color-theme-primary);
+            background-image: var(--rr-color-theme-primary);
             color: var(--rr-color-heading-primary);
             font-size: 20px;
             height: 50px;

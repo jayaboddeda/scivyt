@@ -81,7 +81,7 @@
                 grid-template-columns: 1fr;
             }
             .icon{
-                background-color: var(--rr-color-theme-primary);
+                background-image: var(--rr-color-theme-primary);
                 height: 84px;
                 width: 84px;
                 @include flex-center;

@@ -85,7 +85,7 @@
                 border-radius: 50%;
                 border: 1px solid #333;
                 &:hover{
-                    background-color: var(--rr-color-theme-primary);
+                    background-image: var(--rr-color-theme-primary);
                     color: var(--rr-color-heading-primary);
                 }
             }
@@ -238,7 +238,7 @@
                     border-radius: 50%;
                     @include transition(all 0.3s ease-in-out);
                     &:hover {
-                        background-color: var(--rr-color-theme-primary);
+                        background-image: var(--rr-color-theme-primary);
                         color: var(--rr-color-heading-primary);
                     }
                 }
@@ -391,7 +391,7 @@
                 border: 2px solid var(--rr-color-heading-primary);
                 border-radius: 15px;
                 &:hover{
-                    background-color: var(--rr-color-theme-primary);
+                    background-image: var(--rr-color-theme-primary);
                 }
             }
         }

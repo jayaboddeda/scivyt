@@ -47,7 +47,7 @@ START: Template Default CSS
   --rr-color-common-dark: #232323;
   --rr-color-heading-primary: #171717;
   --rr-color-text-body: #2C3135;
-  --rr-color-theme-primary: #C5FF4A;
+  --rr-color-theme-primary: linear-gradient(90deg,#144d91,#00b38d);
   --rr-color-theme-secondary: #ffc226;
   --rr-color-bg-1: #11151C;
   --rr-color-grey-1: #F4F4F2;
@@ -485,7 +485,7 @@ ul {
   z-index: 1;
 }
 .img-reveal .img-overlay {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   height: 100%;
   width: 100%;
   position: absolute;
@@ -513,7 +513,7 @@ ul {
 }
 
 .running-text {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   background-repeat: repeat;
   background-size: 20px;
   padding: 20px 0;
@@ -616,7 +616,7 @@ ul {
   z-index: -1;
 }
 .running-text.running-3 .bg-img:before {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   mix-blend-mode: multiply;
   content: "";
   width: 100%;
@@ -743,7 +743,7 @@ ul {
   left: 0;
   width: 0;
   opacity: 1;
-  color: var(--rr-color-theme-primary);
+  color: var(--rr-color-common-white);
   overflow: hidden;
   position: absolute;
   content: attr(data-loading-text);
@@ -2618,9 +2618,9 @@ ul {
 
 /** Buttons CSS */
 .rr-primary-btn {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   font-family: var(--rr-ff-heading);
-  color: var(--rr-color-heading-primary);
+  color: var(--rr-color-common-white);
   display: inline-flex;
   align-items: center;
   font-size: 14px;
@@ -2672,9 +2672,9 @@ ul {
 }
 
 .rr-white-btn {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   font-family: var(--rr-ff-heading);
-  color: var(--rr-color-heading-primary);
+  color: var(--rr-color-common-white);
   display: inline-flex;
   align-items: center;
   font-size: 14px;
@@ -2873,7 +2873,7 @@ START: Header CSS
   border-bottom: none;
 }
 .header .primary-header-inner .header-menu-wrap ul li li:hover {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
 }
 .header .primary-header-inner .header-menu-wrap ul li li:hover a {
   color: var(--rr-color-common-black);
@@ -3224,13 +3224,13 @@ START: Header CSS
 }
 
 .header-4 .top-bar .top-bar-inner {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
 }
 .header-4 .top-bar .top-bar-inner .top-bar-left .top-contact-list li {
-  color: var(--rr-color-heading-primary);
+  color: var(--rr-color-common-white);
 }
 .header-4 .top-bar .top-bar-inner .top-bar-right .top-social-list li a {
-  color: var(--rr-color-heading-primary);
+  color: var(--rr-color-common-white);
   column-gap: 5px;
 }
 .header-4 .top-bar .top-bar-inner .top-bar-right .top-social-list li a i {
@@ -3276,7 +3276,7 @@ START: Header CSS
   backface-visibility: hidden;
 }
 .side-menu-wrapper .side-menu-close {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   position: absolute;
   top: 40px;
   right: 40px;
@@ -3495,7 +3495,7 @@ START: Header CSS
 }
 @media only screen and (max-width: 992px) {
   .mobile-side-menu .side-menu-head .mobile-side-menu-close:hover {
-    background-color: var(--rr-color-theme-primary);
+    background-image: var(--rr-color-theme-primary);
     color: var(--rr-color-common-white);
   }
   .mobile-side-menu .side-menu-wrap {
@@ -3596,7 +3596,7 @@ START: Header CSS
   }
 }
 .mean-bar .mean-nav.mean-nav > ul li a.mean-expand {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   color: var(--rr-color-heading-primary);
   position: absolute;
   padding: 0;
@@ -3740,7 +3740,7 @@ START: Header CSS
   }
 }
 #popup-search-box .box-inner-wrap .search-close:hover {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   border: 1px solid var(--rr-color-theme-primary);
   color: var(--rr-color-common-white);
 }
@@ -3863,7 +3863,7 @@ START: Theme Slider CSS
   }
 }
 .nunca-slider .slider-arrow .slider-nav:hover {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
 }
 
 .slider-item {
@@ -4517,7 +4517,7 @@ START: Theme Slider CSS
   background-color: var(--rr-color-common-white);
 }
 .hero-content-2 .hero-btn:after, .hero-content-2 .hero-btn:before {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
 }
 .hero-content-2 .hero-btn:hover {
   color: var(--rr-color-heading-primary);
@@ -4610,7 +4610,7 @@ START: Theme Slider CSS
   }
 }
 .hero-content-3 .title span:before {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   content: "";
   position: absolute;
   width: 100%;
@@ -4636,7 +4636,7 @@ START: Theme Slider CSS
   border: 2px solid var(--rr-color-common-white);
 }
 .hero-content-3 .hero-btn-wrap .rr-white-btn:after, .hero-content-3 .hero-btn-wrap .rr-white-btn:before {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
 }
 .hero-content-3 .hero-btn-wrap .rr-white-btn:hover {
   border: 2px solid var(--rr-color-theme-primary);
@@ -4661,7 +4661,7 @@ START: Theme Slider CSS
   border: 2px solid var(--rr-color-theme-primary);
 }
 .hero-content-3 .hero-btn-wrap .play-btn a:hover {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   color: var(--rr-color-heading-primary);
 }
 .hero-content-3 .hero-btn-wrap .play-btn a i {
@@ -4802,7 +4802,7 @@ START: Theme Slider CSS
   border: 2px solid var(--rr-color-common-white);
 }
 .hero-content-4 .rr-white-btn:after, .hero-content-4 .rr-white-btn:before {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
 }
 .hero-content-4 .rr-white-btn:hover {
   border: 2px solid var(--rr-color-theme-primary);
@@ -4915,7 +4915,7 @@ START: Theme Slider CSS
   }
 }
 .about-video-box .about-thumb .play-btn a {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   color: var(--rr-color-heading-primary);
   display: flex;
   align-items: center;
@@ -4985,7 +4985,7 @@ START: Theme Slider CSS
   border-bottom: 1px solid #D9D9D9;
 }
 .about-items .about-item .icon {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   height: 85px;
   width: 85px;
   display: flex;
@@ -5090,7 +5090,7 @@ START: Theme Slider CSS
   font-weight: 700;
 }
 .about-img-5 .about-counter .counter-text {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   text-align: center;
   padding: 10px 20px;
   font-size: 14px;
@@ -5282,7 +5282,7 @@ START: Theme Slider CSS
   }
 }
 .service-item .icon {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   height: 98px;
   width: 98px;
   border-radius: 50%;
@@ -5335,7 +5335,7 @@ START: Theme Slider CSS
   color: var(--rr-color-theme-primary);
 }
 .service-item .content .service-btn:hover:before {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
 }
 .service-item:hover .icon img {
   animation-name: wobble-vertical;
@@ -5345,7 +5345,7 @@ START: Theme Slider CSS
 }
 
 .service-section-2 {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   border-top: 2px solid var(--rr-color-heading-primary);
   border-bottom: 2px solid var(--rr-color-heading-primary);
 }
@@ -5368,7 +5368,7 @@ START: Theme Slider CSS
   }
 }
 .service-item-2 .icon {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   height: 96px;
   width: 96px;
   display: flex;
@@ -5622,7 +5622,7 @@ START: Theme Slider CSS
   background-color: var(--rr-color-heading-primary);
 }
 .service-card-wrap:hover .border-space {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   border: 3px solid var(--rr-color-heading-primary);
 }
 .service-card-wrap:hover .service-card .icon img {
@@ -5688,7 +5688,7 @@ START: Theme Slider CSS
   }
 }
 .about-service {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   border-top: 2px solid var(--rr-color-heading-primary);
   border-bottom: 2px solid var(--rr-color-heading-primary);
 }
@@ -5941,7 +5941,7 @@ START: Theme Slider CSS
   border: 1px solid #333;
 }
 .team-item .team-social li a:hover {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   color: var(--rr-color-heading-primary);
 }
 .team-item:hover .team-social {
@@ -6107,7 +6107,7 @@ START: Theme Slider CSS
   transition: all 0.3s ease-in-out;
 }
 .team-item-3 .team-social-2 .social-list li a:hover {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   color: var(--rr-color-heading-primary);
 }
 .team-item-3 .team-social-2 .social-list li:not(:last-of-type) {
@@ -6270,7 +6270,7 @@ START: Theme Slider CSS
   border-radius: 15px;
 }
 .team-details-content .team-details-social li a:hover {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
 }
 .team-details-content .details-content-wrap .title {
   font-size: 30px;
@@ -6442,7 +6442,7 @@ START: Theme Slider CSS
   top: 0;
 }
 .video-wrap a {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   color: var(--rr-color-heading-primary);
   display: flex;
   align-items: center;
@@ -6560,7 +6560,7 @@ START: Theme Slider CSS
   }
 }
 .cta-wrap .cta-content .cta-contact .icon {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   height: 84px;
   width: 84px;
   display: flex;
@@ -6720,7 +6720,7 @@ START: Theme Slider CSS
   margin-bottom: 40px;
 }
 .appointment-content .appointment-contact li .icon {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   color: var(--rr-color-heading-primary);
   font-size: 18px;
   height: 35px;
@@ -6776,7 +6776,7 @@ START: Theme Slider CSS
 }
 
 .appointment-2 {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   border-bottom: 3px solid var(--rr-color-heading-primary);
   overflow-x: clip;
 }
@@ -6988,7 +6988,7 @@ START: Theme Slider CSS
   }
 }
 .project-item .project-content .number {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   height: 90px;
   width: 90px;
   display: flex;
@@ -7215,7 +7215,7 @@ START: Theme Slider CSS
   }
 }
 .project-card .project-content .project-btn {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   color: var(--rr-color-heading-primary);
   height: 65px;
   width: 65px;
@@ -7306,7 +7306,7 @@ START: Theme Slider CSS
   }
 }
 .project-details-items .project-details-item .icon {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   color: var(--rr-color-heading-primary);
   font-size: 20px;
   height: 50px;
@@ -7452,7 +7452,7 @@ START: Theme Slider CSS
   margin-bottom: 30px;
 }
 .feature-item .icon {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   height: 98px;
   width: 98px;
   display: flex;
@@ -7649,7 +7649,7 @@ START: Theme Slider CSS
 }
 .skills-item .progress .progress-bar {
   position: relative;
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   overflow: visible;
   border-radius: 3px;
 }
@@ -7745,7 +7745,7 @@ START: Theme Slider CSS
   border-bottom: 3px solid var(--rr-color-heading-primary);
 }
 .faq-section:before {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   content: "";
   width: 45%;
   height: 100%;
@@ -7861,7 +7861,7 @@ START: Theme Slider CSS
   }
 }
 .faq-accordion .accordion-item .accordion-button:after {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   color: var(--rr-color-heading-primary);
   background-image: none;
   font-family: "Font Awesome 6 Pro";
@@ -8401,7 +8401,7 @@ START: Theme Slider CSS
   color: var(--rr-color-text-body);
 }
 .office-item:hover {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   border: 1px solid var(--rr-color-heading-primary);
 }
 
@@ -8613,10 +8613,10 @@ START: Blog CSS
   border-radius: 10px;
 }
 .pagination-wrap li a:hover {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
 }
 .pagination-wrap li .active {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
 }
 
 .blog-section-4 {
@@ -8741,7 +8741,7 @@ START: Blog CSS
   transition: all 0.3s ease-in-out;
 }
 .post-thumb-carousel .swiper-arrow .swiper-nav:hover {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
 }
 @media only screen and (max-width: 767px) {
   .post-thumb-carousel .swiper-arrow .swiper-nav {
@@ -8935,7 +8935,7 @@ START: Contact CSS
   display: block;
 }
 .contact-content .contact-list .list-item:hover .icon {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   color: var(--rr-color-common-white);
 }
 
@@ -9253,7 +9253,7 @@ START: Sidebar CSS
 }
 
 .side-menu-list li i {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   font-size: 12px;
   color: var(--rr-color-heading-primary);
   width: 30px;
@@ -9300,7 +9300,7 @@ START: Sidebar CSS
   border-radius: 5px;
 }
 .side-menu-social li a:hover {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   color: var(--rr-color-heading-primary);
 }
 
@@ -9478,7 +9478,7 @@ blockquote .content p {
   border-radius: 100px;
 }
 .tags .tag-left .tag-list li a:hover {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   color: var(--rr-color-heading-primary);
 }
 .tags .social-list-wrap {
@@ -9640,7 +9640,7 @@ blockquote .content p {
   font-weight: 500;
 }
 .sidebar-widget .search-form .search-btn {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   color: var(--rr-color-heading-primary);
   display: flex;
   align-items: center;
@@ -9693,7 +9693,7 @@ blockquote .content p {
   font-family: var(--rr-ff-heading);
 }
 .sidebar-widget .category-list li a:hover {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   color: var(--rr-color-heading-primary);
 }
 .sidebar-widget .blog-gallary-wrap {
@@ -9755,7 +9755,7 @@ blockquote .content p {
   z-index: 2;
 }
 .sidebar-widget .blog-gallary-wrap .gallary-thumb .gallary-btn a {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   color: var(--rr-color-heading-primary);
   height: 35px;
   width: 35px;
@@ -9850,7 +9850,7 @@ blockquote .content p {
   background-size: 100% 2px;
 }
 .sidebar-widget.blog-cta {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
 }
 .sidebar-widget.blog-cta .title {
   font-size: 30px;
@@ -10010,8 +10010,8 @@ START: Footer CSS
 }
 .footer-widget .footer-form .submit {
   font-family: var(--rr-ff-heading);
-  background-color: var(--rr-color-theme-primary);
-  color: var(--rr-color-heading-primary);
+  background-image: var(--rr-color-theme-primary);
+  color: var(--rr-color-common-white);
   text-transform: uppercase;
   position: absolute;
   top: 50%;
@@ -10036,7 +10036,7 @@ START: Footer CSS
   margin-bottom: 25px;
 }
 .footer-widget .address-list li .icon {
-  background-color: var(--rr-color-theme-primary);
+  background-image: var(--rr-color-theme-primary);
   color: var(--rr-color-heading-primary);
   height: 40px;
   width: 40px;

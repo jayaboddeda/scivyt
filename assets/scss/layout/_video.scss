@@ -44,7 +44,7 @@
         }
     }
     a{
-        background-color: var(--rr-color-theme-primary);
+        background-image: var(--rr-color-theme-primary);
         color: var(--rr-color-heading-primary);
         @include flex-vertical-center;
         justify-content: center;
