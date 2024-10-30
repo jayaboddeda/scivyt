@@ -42,7 +42,7 @@ START: Template Default CSS
   --rr-fs-h4: 18px;
   --rr-fs-h5: 16px;
   --rr-fs-h6: 14px;
-  --rr-color-common-white: #f8f8f8;
+  --rr-color-common-white: #f2f8f7;
   --rr-color-common-black: #000000;
   --rr-color-common-dark: #232323;
   --rr-color-heading-primary: #02382f;
@@ -65,7 +65,7 @@ START: Template Default CSS
 	Typography CSS
 */
 body {
-  background-color: #f1f1f1;
+  background-color: #f2f8f7;
   font-family: var(--rr-ff-body);
   font-size: 16px;
   line-height: 1.625;
