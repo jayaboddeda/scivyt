@@ -3,7 +3,7 @@ const footerHtml = ` <div class="shapes">
                     <div class="shape shape-2"><img src="assets/img/shapes/footer-shape-2.png" alt="shape"></div>
                 </div>
                 <div class="container-lg">
-                    <div class="footer-top">
+                    <div class="footer-top max-sm:mb-5 max-sm:pb-5">
                         <h2 class="title">Let's Create <br>Something Great</h2>
                         <a href="contact.html" class="rr-white-btn">Book Appointment</a>
                     </div>
@@ -65,7 +65,7 @@ const footerHtml = ` <div class="shapes">
                                     <h3 class="widget-title">Newsletter</h3>
                                 </div>
                                 <p class="news-desc">Don't miss any updates</p>
-                                <div class="footer-form mb-20">
+                                <div class="footer-form md:mb-20">
                                     <form action="#" class="rr-subscribe-form">
                                         <input class="form-control" type="email" name="email"
                                             placeholder="Email address">

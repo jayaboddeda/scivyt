@@ -35,65 +35,6 @@
     <!-- header-area-start -->
     <div id="header"></div>
 
-    <!-- /.Main Header -->
-
-    <div id="sidebar-area" class="sidebar-area">
-        <button class="sidebar-trigger close">
-            <svg class="sidebar-close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px" y="0px" width="16px" height="12.7px" viewBox="0 0 16 12.7"
-                style="enable-background: new 0 0 16 12.7" xml:space="preserve">
-                <g>
-                    <rect x="0" y="5.4" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.1569 7.5208)" width="16"
-                        height="2"></rect>
-                    <rect x="0" y="5.4" transform="matrix(0.7071 0.7071 -0.7071 0.7071 6.8431 -3.7929)" width="16"
-                        height="2"></rect>
-                </g>
-            </svg>
-        </button>
-        <div class="side-menu-content">
-            <div class="side-menu-logo mb-2">
-                <a class="dark-img" href="index.html"><img src="assets/img/logo/logo-1.png" alt="logo" class="h-16"></a>
-                <a class="light-img" href="index.html"><img src="assets/img/logo/logo-1.png" alt="logo"></a>
-            </div>
-            <div class="side-menu-wrap mb-2"></div>
-            <div class="side-menu-about">
-                <div class="side-menu-header">
-                    <h3>About Us</h3>
-                </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud nisi ut aliquip ex ea commodo
-                    consequat.</p>
-                <a href="contact.html" class="rr-primary-btn">Contact Us</a>
-            </div>
-            <div class="side-menu-contact">
-                <div class="side-menu-header">
-                    <h3>Contact Us</h3>
-                </div>
-                <ul class="side-menu-list">
-                    <li>
-                        <i class="fas fa-map-marker-alt"></i>
-                        <p>Valentin, Street Road 24, Hyderabad, </p>
-                    </li>
-                    <li>
-                        <i class="fas fa-phone"></i>
-                        <a href="tel:+000123456789">+91 123 (456) 789</a>
-                    </li>
-                    <li>
-                        <i class="fas fa-envelope-open-text"></i>
-                        <a href="mailto:nuncacontact@gmail.com">scyvitcontact@gmail.com</a>
-                    </li>
-                </ul>
-            </div>
-            <ul class="side-menu-social">
-                <li class="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li class="instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
-                <li class="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li class="g-plus"><a href="#"><i class="fab fa-fab fa-google-plus"></i></a></li>
-            </ul>
-        </div>
-    </div>
-    <!--/.sidebar-area-->
-
     <div id="popup-search-box">
         <div class="box-inner-wrap d-flex align-items-center">
             <form id="form" action="#" method="get" role="search">
@@ -238,10 +179,10 @@
             <!-- ./ about-section -->
 
             <section class="service-section overflow-hidden">
-                <div class="service-wrap pt-140 pb-140">
+                <div class="service-wrap pt-140 pb-140 max-sm:px-0">
                     <div class="container-lg">
                         <div class="section-heading white-content fade-wrapper">
-                            <span class="bg-text ml-10">SCIVYT</span>
+                            <span class="bg-text ml-10 max-sm:hidden">SCIVYT</span>
                             <h4 class="sub-heading" data-text-animation="fade-in" data-duration="1.5">Our Vision</h4>
                             <!-- <h2 class="section-title" data-text-animation="fade-in-right" data-split="char" data-duration="0.6" data-stagger="0.07">PioneeringÃ‚Â ProjectsÃ‚Â For <br> IntelligentÃ‚Â Solutions</h2> -->
                             <p class="md:w-1/2" fade-top>Our vision is to revolutionize education by merging
@@ -253,7 +194,7 @@
                         </div>
                         <div class="row fade-wrapper gy-4 justify-content-center">
                             <div class="col-md-12">
-                                <div class="service-item fade-top" style="padding: 30px;">
+                                <div class="service-item fade-top">
                                     <div class="icon"><img src="assets/img/icon/service-1.png" alt="service"></div>
                                     <div class="content white-content">
                                         <h3 class="title"><a href="service-details.html">Academic Excellence</a></h3>
@@ -284,7 +225,7 @@
                                 </div>
                             </div>
                             <div>
-                                <div class="service-item fade-top" style="padding: 30px;">
+                                <div class="service-item fade-top">
                                     <div class="icon"><img src="assets/img/icon/service-6.png" alt="service"></div>
                                     <div class="content white-content">
                                         <h3 class="title"><a href="service-details.html">Global Networking</a></h3>
@@ -678,7 +619,7 @@
                     <h2 class="section-title text-center" data-text-animation data-split="word" data-duration="1">Our
                         Products</h2>
                 </div>
-                <div class="overlay"></div>
+                <div class="overlay max-sm:hidden"></div>
                 <div class="shape"><img src="assets/img/shapes/feature-shape.png" alt="shape"></div>
                 <div class="container-lg">
                     <div class="row align-items-center justify-content-center">
@@ -741,11 +682,15 @@
             </section>
 
             <section class="feature-section pb-100">
-                <div class="overlay"></div>
+                <div class="overlay max-sm:hidden"></div>
                 <div class="shape"><img src="assets/img/shapes/feature-shape.png" alt="shape"></div>
                 <div class="container-lg">
-                    <div class="row align-items-center">
-                        <div class="col-xl-6 col-lg-12 order-1">
+                    <div class="row align-items-center flex-row-reverse">
+                        <div class="col-xl-6 col-lg-12">
+                            <img class="main-img" src="/assets/img/project/vituor-removebg-preview.png"
+                                alt="Vituor image">
+                        </div>
+                        <div class="col-xl-6 col-lg-12">
                             <div class="feature-content fade-wrapper">
                                 <div class="section-heading mb-10">
                                     <h2 class="section-title" data-text-animation data-split="word" data-duration="1">
@@ -795,10 +740,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-6 col-lg-12 order-2">
-                            <img class="main-img" src="/assets/img/project/vituor-removebg-preview.png"
-                                alt="Vituor image">
-                        </div>
+
                     </div>
                 </div>
             </section>
@@ -977,7 +919,7 @@
             <!-- ./ blog-section -->
 
             <footer class="footer-section pt-140">
-               
+
             </footer>
             <!-- ./ footer-section -->
 

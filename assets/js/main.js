@@ -39,6 +39,24 @@
             if (header.hasClass("sticky-active")) {
                 menuSticky(minWidth);
             }
+
+            //Mobile Menu Js
+            $(".mobile-menu-items").meanmenu({
+                meanMenuContainer: ".side-menu-wrap",
+                meanScreenWidth: "992",
+                meanMenuCloseSize: "30px",
+                meanRemoveAttrs: true,
+                meanExpand: ['<i class="fa-solid fa-caret-down"></i>'],
+            });
+
+            // Mobile Sidemenu
+            $(".mobile-side-menu-toggle").on("click", function () {
+                $(".mobile-side-menu, .mobile-side-menu-overlay").toggleClass("is-open");
+            });
+
+            $(".mobile-side-menu-close, .mobile-side-menu-overlay").on("click", function () {
+                $(".mobile-side-menu, .mobile-side-menu-overlay").removeClass("is-open");
+            });
             // Your additional JS code here
         })
         .catch(error => {
