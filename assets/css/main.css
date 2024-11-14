@@ -8355,11 +8355,11 @@ START: Theme Slider CSS
     START: Page Header CSS
 ----------------------------------------*/
 .office-item {
-  display: grid;
+  /* display: grid; */
   grid-template-columns: 200px 1fr;
   align-items: center;
   grid-gap: 40px;
-  padding: 40px;
+  padding: 26px;
   border: 1px solid #E4E4E4;
   border-radius: 30px;
   -webkit-transition: all 0.3s ease-in-out;

@@ -5,7 +5,7 @@ const footerHtml = ` <div class="shapes">
                 <div class="container-lg">
                     <div class="footer-top max-sm:mb-5 max-sm:pb-5">
                         <h2 class="title">Let's Create <br>Something Great</h2>
-                        <a href="contact.html" class="rr-white-btn">Book Appointment</a>
+                        <a href="contact.html" class="rr-white-btn">Contact Us</a>
                     </div>
                     <div class="row footer-wrap">
                         <div class="col-xl-3 col-lg-6 col-md-6">
@@ -42,6 +42,7 @@ const footerHtml = ` <div class="shapes">
                                     <li><a href="products.html">Our Products</a></li>
                                     <li><a href="blogs.html">Blogs</a></li>
                                     <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="careers.html">Careers</a></li>
                                 </ul>
                             </div>
                         </div>
