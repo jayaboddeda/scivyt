@@ -6184,7 +6184,7 @@ START: Theme Slider CSS
 }
 
 .team-details-content {
-  max-width: 725px;
+  /* max-width: 725px; */
   width: 100%;
 }
 .team-details-content .name {
@@ -6207,7 +6207,7 @@ START: Theme Slider CSS
 }
 .team-details-content .desc {
   font-size: 18px;
-  max-width: 650px;
+  /* max-width: 650px; */
   width: 100%;
 }
 .team-details-content .team-details-list {
