@@ -17,7 +17,7 @@ const footerHtml = ` <div class="shapes">
                                     <li>
                                         <div class="icon"><i class="fa-sharp fa-solid fa-location-dot"></i></div>
                                         <div class="content">
-                                            <p>256 Daniel Avenue, Suite Road, <br>VBA 21, Hyderabad India</p>
+                                            <p>6th Floor, Capital Park, Image Garden Road, Madhapur, Hyderabad India</p>
                                         </div>
                                     </li>
                                     <li>
@@ -81,7 +81,9 @@ const footerHtml = ` <div class="shapes">
                 <div class="copyright-area">
                     <div class="container-lg">
                         <div class="copyright-content text-center">
-                            <p>Â© Copyright 2024, All Rights Reserved.</p>
+                            <p>© Copyright 2024, All Rights Reserved.Designed & Developed by
+                            <a href="https://webbingprotechnologies.com/" target="_blank">WebbingPro Technologies</a> - <a href="tel:9059329297">9059329297</a></p>
+                            
                         </div>
                     </div>
                 </div>`;
